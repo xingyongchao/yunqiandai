@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+/* css  样式自用*/
+
+/* 通用css样式类：如，浮动，清除浮动、 */
+body,ul,.con_sec{ margin:0px; padding:0px;}
+html,body{ height:100%;}
+html{overflow:auto;} /*IE7*/
+body{ font-family:"微软雅黑";}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block;}
+
+
+
+a,a:hover{ text-decoration:none;}
+
+.line{
+	text-decoration: underline;
+}
+
+.fl{ float:left;}
+.fr{ float:right;}
+
+.ps_a{ position:absolute;}
+.ps_r{ position:relative;}
+.ps_f{ position:fixed;}
+
+.t_r{ text-align:right;}
+.t_l{ text-align:left;}
+.t_c{ text-align:center;}
+
+.v_m{ vertical-align:middle;}
+.v_t{ vertical-align:middle;}
+
+.fw_b{ font-weight:700;}
+.fw_n{ font-weight:normal;}
+
+.hand{ cursor:pointer;}
+.def{ cursor:default;}
+
+.dpn{ display:none;}
+.dpb{ display:block;}
+.cl{ clear:both;}
+
+.of_h{ overflow:hidden;}
+.of_a{ overflow:auto;}
+.of_sx{ overflow-x:scroll;overflow-x:hidden;}
+.of_sy{ overflow-y:scroll;overflow-x:hidden;}
+.of_ay{ overflow-y:auto;overflow-x:hidden;}
+ 
+ 
+ 
+/*网站专用类如：背景图片，北京颜色、字体颜色*/
+/*字体大小类*/
+.f_10{ font-size:10px;}
+.f_12{ font-size:12px;}
+.f_14{ font-size:14px;}
+.f_15{ font-size:15px;}
+.f_16{ font-size:16px;}
+.f_18{ font-size:18px;}
+.f_20{ font-size:20px;}
+.f_24{ font-size:24px;}
+.f_28{ font-size:28px;}
+/* 字体种类*/
+.ff{ font-family:"微软雅黑";}
+/*字体颜色类*/
+.fc_0{ color:#FFF;}
+.fc_1{ color:#555;}
+.fc_2{color:#E70D0D;}
+.fc_3{color:#000AFF;}
+.fc_4{color:#5bc0de;}
+
+
+
+/*宽度类 像素*/
+.w_20{ width:20px;}
+
+
+
+/*宽度类 百分比*/
+.w_p100{ width:100%;}
+ 
+
+
+
+
+
+/*高度*/
+.h_10{ height:10px;}
+
+
+
+.h_p100{ height:100%;}
+
+
+
+
+/*行高*/
+.lh_19{line-height:19px;}  
+
+/*内边距*/
+.pd_0{ padding:0px;}
+.pd_10{ padding:10px;} 
+
+.pr_15{ padding-right:15px;}
+
+.pl_5{ padding-left:5px;}
+
+
+.plr_4{ padding-left:4px; padding-right: 4px;}
+
+.pt_2{ padding-top:2px;}
+
+
+.pb_2{ padding-bottom:2px;}
+
+
+
+
+/*外边距*/
+.mg_0{ margin:0px;}
+.mg_auto{ margin:0 auto;}
+
+
+.m_10{ margin:10px;}
+.m_lr10{ margin:0px 10px;}
+
+.ml_42{ margin-left:42px;}
+ 
+
+.mr_10{ margin-right:10px;}
+
+.mt_f1{ margin-top:-1px;}
+
+.mt_35{ margin-top:35px;}
+.mt_160{ margin-top:160px;}
+ 
+
+.mb_1{ margin-bottom:1px;}
+
+/*相对于父级的  top   bottom  left  right*/
+.t_p50{ top:50%;}
+
+/*div层级*/
+.zi_z1{ z-index:1;}
+
+/*圆角*/
+.yj_t1{
+	border-top-left-radius: 8px;
+    border-top-right-radius: 8px;	
+	}
+	
+.yj_b1{
+	border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;	
+	}
+
+.yj_tr{
+	border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.zi_f1{ z-index:-1;}
+
+/*背景颜色*/
+.bgc_n{background:none;}   /* 无色 */
+.bgc_f{background: #fff;}  /* 白色 */
+
+/*背景图片*/
+.bgi_0{ background:url(../images/tobar_02.png) repeat-x;}
+
+
+/*边框大小*/
+.b_0{ border:0px;}
+.b_1{ border: 1px solid #ddd; }
+ 
+.bt_1{ border-top:1px solid #B1C8D3;}
+
+
+.br_0{ border-right:0px;}
+
+.br_n{ border-radius:0px;}
+
+.bl_1{ border-left:1px solid #000;} 
+
+.br_1{ border-right:1px solid #000;} 
+
+.blr_1{border-right:1px solid #B1C8D3;border-left:1px solid #B1C8D3;}
+
+.btl_1{ border-top:1px solid #B1C8D3;border-left:1px solid #B1C8D3;}
+
+.br_0{	border-radius: 0px;}
+
+/*对某些元素的修饰超过 两个属性以上的*/
+.div_alc{display:inline-block;margin:0px 10px;}/* div的居中对齐方法,必须配合外层*/
+
+ 
+ 
+/*响应式样式布局配合meta标签   代码：<meta name="viewport" content="width=device-width, initial-scale=1" />*/
+@media screen and (min-width:1200px) and (max-width:1400px){
+								  	
+									}
+									
+@media screen and (max-width:1199px){
+								  
+									}
+
+@media screen and (min-width:1401px){
+								 
+								 
+									}									
+/****************************************************************************************************************************************************************************/									
+ 

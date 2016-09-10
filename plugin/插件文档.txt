@@ -1,0 +1,19 @@
+bootstrap3   为bootstrap3的css类库和js库
+
+jquery-plugin  为常用的jquery插件
+	icheck   单选复选的美化
+	seletpicker 下拉框的美化   基于jquery和bootstrap
+	lazyload 图片懒加载
+	placeholder 兼容IE8的placeholder插件
+	slider superslder插件，常用的轮播图插件
+
+laydate 时间选择插件
+
+layer 弹出框插件
+
+require require.js插件
+
+ysjq  插件的集合，看看什么喜欢就用哪个
+
+jquery.min.js  不用解释
+
